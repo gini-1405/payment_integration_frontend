@@ -82,7 +82,7 @@ const CartDetails = () => {
     };
 
     const response = await fetch(
-      `https://payment-integration-backend-neon.vercel.app//api/create-checkout-session`,
+      `https://payment-integration-backend-neon.vercel.app/api/create-checkout-session`,
       {
         method: "POST",
         headers: headers,
